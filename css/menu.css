@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
+body{
+    background-color: #c9a998 ;
+}
+
+/* HEADER NAVBAR START HERE */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    background-color: #c9a998;
+    width: 100%;
+}
+
+.logo {
+ 
+    display: flex;
+}
+
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+.logo img{
+    justify-content: space-between;
+}
+
+.header .btn {
+ 
+    border-style: solid;
+    border-radius: 500px;
+    color: white;
+    border-color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 1s;
+    background: none;
+    padding: 10px 20px;
+}
+
+.header .btn:hover{
+    background-color: #ffa001;
+    color: white;
+    border: none;
+} 
+
+
+.herobg{
+    position: relative;
+}
+
+.herobg h1{
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    left: 25%;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    color: white;
+}
+.herobg p{
+    position: absolute;
+    z-index: 10;
+    top: 47%;
+    left: 40%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.herobg{
+    background-image: url(../img/hero-06.jpg);
+    height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+/* IMAGE SECTION STARTS HERE */
+/* IMAGE SECTION STARTS HERE */
+/* IMAGE SECTION STARTS HERE */
+
+.container1{
+    width: 50px;
+    padding: 50px;
+}
+
+.main{
+    width: 50%;
+    display: flex;
+    padding-left: 135px;
+}
+
+.img1-info{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.img1 h5{
+    font-family: bebas neue, Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffee03;
+}
+
+.img1 h6{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.img1{
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.img1 img{
+    border-radius: 100%;
+    box-shadow: black;
+    
+}
+
+.container2{
+    padding-bottom: 40px;
+}
+
+/* RESERVATION SECTION STARTS HERE */
+/* RESERVATION SECTION STARTS HERE */
+/* RESERVATION SECTION STARTS HERE */
+
+.container6{
+    padding-top: 100px;
+}
+
+.line{
+    width: 3px;
+    height: 118px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.reservation-heading h4{
+    color: white;
+    font-family: "Anton SC", sans-serif;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.reservation-heading p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 550
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 112%; 
+    padding: 12px; 
+    border: 1px solid #d1b5a6; 
+    border-radius: 11px; 
+    box-sizing: border-box; 
+    margin-top: 2px; 
+    margin-bottom: 14px; 
+    margin-left: 213px;
+    resize: vertical;
+    background-color: #e0cdc2;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: #d1b5a6;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 213px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+    
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container3 {
+    border-radius: 5px;
+    background-color: #c9a998;
+    margin:40px 150px;
+     width: 50%;
+  }
+
+  .container3{
+    display: flex;
+    align-items: center;
+  }
+
+.menu-btn {
+    text-align: center;
+    
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 18px 44px;
+    transition: all .5s;
+    letter-spacing: 5px;
+    font-family: "Anton SC", sans-serif;
+
+}
+
+.menu-btn a:hover {
+    background-color: #ffa001;
+    color: white;
+    border: none;
+}
+
+.container11{
+    padding-top: 50px;
+}
+
+.footer{
+    color: #fff;
+}
+
+.footer-content{
+    height: 250px;
+    background-color: #d1b5a6;
+    padding-bottom: 40px;
+}
+
+.logo1{
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.img-content{
+    display: flex;
+    
+}
+
+.img1 img{
+    text-align: center;
+}
+
+.footer-line{
+    
+    height: 0.5px;
+    color: black;
+    border-bottom: black solid 1px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.content{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 37px;
+    font-weight: 20px;
+}
+.toflex{
+    display: flex;
+}
+
+
+
+
+
+
